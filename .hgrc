@@ -1,2 +1,5 @@
+[ui]
+username = Ryan Berdeen <ryan@ryanberdeen.com>
+
 [web]
 cacerts = ~/.hg-dummy-cert.pem
