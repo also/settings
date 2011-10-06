@@ -1,3 +1,5 @@
+call pathogen#infect()
+
 " taken from http://blog.interlinked.org/static/files/vimrc
 
 " show line numbers
