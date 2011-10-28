@@ -17,7 +17,11 @@ alias lock="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resourc
 
 alias ..="cd .."
 
-
+if [ -f /usr/local/bin/src-hilite-lesspipe.sh ]; then
+  export LESSOPEN="| /usr/local/bin/src-hilite-lesspipe.sh %s"
+  export LESS=' -R '
+  alias hl="source-highlight --failsafe --infer-lang -f esc --style-file=esc.style -i"
+fi
 
 # include local overrides
 if [ -f ~/.bash_profile_local ]; then
