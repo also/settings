@@ -4,7 +4,13 @@ export HISTCONTROL=ignoredups
 
 export GREP_OPTIONS="--color=auto -n"
 
-alias ip="curl -s jsonip.com | cut -d '\"' -f 4"
+function ip() {
+  echo public: `curl -s jsonip.com | cut -d '"' -f 4`
+  for i in en0 en1
+  do
+    echo "   $i:" `ipconfig getifaddr $i`
+  done
+}
 
 alias json="python -m json.tool"
 
