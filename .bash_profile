@@ -19,6 +19,14 @@ alias serve="python -m SimpleHTTPServer"
 # QuickLook
 alias ql="qlmanage -p &>/dev/null"
 
+function sl {
+  if [ -d "$1" ]
+  then
+    mdfind -onlyin $@
+  else
+    mdfind $@
+  fi
+}
 alias lock="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
 alias ..="cd .."
