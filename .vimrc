@@ -10,11 +10,13 @@ set number
 " spaces instead of tabs
 set expandtab
 
-" Tabs are 4 characters
-set tabstop=4
+" Tabs are 2 characters
+set tabstop=2
 
-" (Auto)indent uses 4 characters
-set shiftwidth=4
+" (Auto)indent uses 2 characters
+set shiftwidth=2
+
+filetype indent on
 
 " Leader
 let mapleader = ","
