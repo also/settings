@@ -2,3 +2,5 @@
 	ui = true
 [alias]
 	tree = log --graph --oneline --all
+[core]
+	excludesfile = /Users/ryan/.gitignore
