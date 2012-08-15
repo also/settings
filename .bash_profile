@@ -4,8 +4,6 @@ export HISTCONTROL=ignoredups
 
 export GREP_OPTIONS="--color=auto -n"
 
-[[ -s "/Users/ryan/.rvm/scripts/rvm" ]] && source "/Users/ryan/.rvm/scripts/rvm"  # This loads RVM into a shell session.
-
 function ip() {
   echo public: `curl -s jsonip.com | cut -d '"' -f 4`
   for i in en0 en1
