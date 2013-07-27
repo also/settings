@@ -1,4 +1,6 @@
-call pathogen#infect()
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
 
 " taken from
 "   http://blog.interlinked.org/static/files/vimrc
@@ -15,8 +17,6 @@ set tabstop=2
 
 " (Auto)indent uses 2 characters
 set shiftwidth=2
-
-filetype indent on
 
 " Leader
 let mapleader = ","
