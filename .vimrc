@@ -35,3 +35,5 @@ set cursorline
 set ruler
 
 set showcmd
+
+set mouse=a
