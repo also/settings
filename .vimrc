@@ -1,3 +1,4 @@
+filetype off
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
@@ -37,3 +38,19 @@ set ruler
 set showcmd
 
 set mouse=a
+
+" sane searching
+nnoremap / /\v
+vnoremap / /\v
+set ignorecase
+set smartcase
+set gdefault
+set incsearch
+set showmatch
+set hlsearch
+
+
+nnoremap ; :
+
+let g:airline_powerline_fonts=1
+set laststatus=2
