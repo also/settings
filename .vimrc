@@ -6,6 +6,7 @@ filetype plugin indent on
 " taken from
 "   http://blog.interlinked.org/static/files/vimrc
 "   https://github.com/RJ/dotvim/blob/master/vimrc
+"   http://stevelosh.com/blog/2010/09/coming-home-to-vim/
 
 " show line numbers
 set number
@@ -66,3 +67,13 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+
+" difficulty
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
+inoremap <up> <nop>
+inoremap <down> <nop>
+inoremap <left> <nop>
+inoremap <right> <nop>
