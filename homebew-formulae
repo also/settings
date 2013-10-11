@@ -8,4 +8,5 @@ mercurial
 node
 phantomjs
 rbenv
+reattach-to-user-namespace
 tmux
