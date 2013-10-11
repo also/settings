@@ -4,6 +4,7 @@ clojure
 graphviz
 hub
 leiningen
+mercurial
 node
 phantomjs
 rbenv
