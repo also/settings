@@ -49,8 +49,20 @@ set incsearch
 set showmatch
 set hlsearch
 
-
+" semicolon instead of colon
 nnoremap ; :
+
+" nicer up/down
+nnoremap j gj
+nnoremap k gk
 
 let g:airline_powerline_fonts=1
 set laststatus=2
+
+nnoremap <leader>w <C-w>v<C-w>l
+
+" nice moving between splits
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
