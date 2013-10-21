@@ -1,3 +1,5 @@
+" http://andrewho.co.uk/weblog/vim-pathogen-with-mutt-and-git
+filetype on
 filetype off
 execute pathogen#infect()
 syntax on
