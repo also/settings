@@ -23,3 +23,5 @@
 	tool = Kaleidoscope
 [web]
 	browser = open
+[push]
+	default = simple
