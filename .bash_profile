@@ -1,10 +1,6 @@
-export CLICOLOR=1
+source ~/work/settings/shell-profile.sh
 
 export HISTCONTROL=ignoredups
-
-export GREP_OPTIONS="--color=auto -n"
-
-source $HOME/work/settings/helpers.sh
 
 # include local overrides
 if [ -f ~/.bash_profile_local ]; then

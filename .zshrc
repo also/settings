@@ -34,8 +34,4 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$HOME/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:
-
-eval "$(rbenv init -)"
-
-source $HOME/work/settings/helpers.sh
+source ~/work/settings/shell-profile.sh
