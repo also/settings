@@ -79,3 +79,5 @@ inoremap <up> <nop>
 inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
+
+au BufRead,BufNewFile *.cljx   setfiletype clojure
