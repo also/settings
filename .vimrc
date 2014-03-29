@@ -81,3 +81,5 @@ inoremap <left> <nop>
 inoremap <right> <nop>
 
 au BufRead,BufNewFile *.cljx   setfiletype clojure
+
+let g:slime_target = "tmux"
