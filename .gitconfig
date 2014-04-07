@@ -21,6 +21,8 @@
 	prompt = false
 [merge]
 	tool = Kaleidoscope
+[url "git@github.com:"]
+	insteadOf = "gh:"
 [web]
 	browser = open
 [push]
