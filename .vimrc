@@ -42,14 +42,13 @@ set showcmd
 
 set mouse=a
 
-" sane searching
-nnoremap / /\v
-vnoremap / /\v
-set ignorecase
-set smartcase
+"set ignorecase
+"set smartcase
+" /g by default
 set gdefault
 set incsearch
 set showmatch
+" highlight all search results. :nohl to hide
 set hlsearch
 
 " semicolon instead of colon
