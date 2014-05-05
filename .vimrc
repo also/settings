@@ -25,10 +25,6 @@ set shiftwidth=2
 " Leader
 let mapleader = ","
 
-" Use the same symbols as TextMate for tabstops and EOLs
-set list
-set listchars=tab:▸\ ,eol:¬
-
 " Faster Esc (hit jj in insert mode)
 "inoremap <Esc> <nop>
 inoremap jj <ESC>
