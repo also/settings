@@ -4,5 +4,6 @@ export PATH=$HOME/.rbenv/bin:$HOME/.jenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/
 
 eval "$(rbenv init -)"
 eval "$(jenv init -)"
+if which nodenv > /dev/null; then eval "$(nodenv init -)"; fi
 
 source $HOME/work/settings/helpers.sh
