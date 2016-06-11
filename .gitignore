@@ -5,3 +5,4 @@
 *.iml
 .idea
 npm-debug.log
+.node-version
