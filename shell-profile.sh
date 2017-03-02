@@ -2,8 +2,8 @@ export CLICOLOR=1
 
 export PATH=$HOME/.rbenv/bin:$HOME/.jenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/git/bin:$HOME/Library/Haskell/bin
 
-eval "$(rbenv init -)"
-eval "$(jenv init -)"
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+if which jenv > /dev/null; then eval "$(jenv init -)"; fi
 if which nodenv > /dev/null; then eval "$(nodenv init -)"; fi
 
 source $HOME/work/settings/helpers.sh
