@@ -5,7 +5,7 @@
 [alias]
 	tree = log --graph --oneline --all
 [core]
-	excludesfile = /Users/ryan/.gitignore
+	excludesfile = ~/.gitignore
 [rerere]
 	enabled = 1
 [difftool "Kaleidoscope"]
