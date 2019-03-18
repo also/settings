@@ -1,12 +1,12 @@
 function ip() {
-  echo public: `curl -s https://jsonip.com | cut -d '"' -f 4`
+  echo public: `curl -s https://jsonip.org | jq -r .ip`
   for i in en0 en1
   do
     echo "   $i:" `ipconfig getifaddr $i`
   done
 }
 
-alias json="python -m json.tool"
+alias json="jq ."
 
 alias serve="python -m SimpleHTTPServer"
 
