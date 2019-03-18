@@ -1,5 +1,7 @@
 tap "also/also"
 
+brew "git-organized"
+
 brew "ack"
 brew "nodenv"
 brew "hub"
