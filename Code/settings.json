@@ -1,0 +1,36 @@
+{
+  "typescript.check.npmIsInstalled": false,
+  "flow.useNPMPackagedFlow": true,
+  "javascript.validate.enable": false,
+  "editor.fontSize": 14,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#333"
+  },
+  "editor.tabSize": 2,
+  "editor.scrollBeyondLastLine": false,
+  "explorer.openEditors.visible": 0,
+  "search.useIgnoreFilesByDefault": true,
+  "extensions.ignoreRecommendations": false,
+  "window.zoomLevel": 0,
+  "typescript.autoImportSuggestions.enabled": true,
+  "window.restoreWindows": "none",
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
+  "[json]": {
+    "editor.formatOnSave": false
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "prettier.requireConfig": true,
+  "search.location": "panel",
+  "files.associations": {
+    "*.graphqls": "graphql"
+  }
+}
