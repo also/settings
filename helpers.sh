@@ -24,6 +24,7 @@ function sl {
 alias lock="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
 alias ..="cd .."
+alias -- -="cd -"
 
 if [ -f /usr/local/bin/src-hilite-lesspipe.sh ]; then
   export LESSOPEN="| /usr/local/bin/src-hilite-lesspipe.sh %s"
