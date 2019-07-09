@@ -12,6 +12,7 @@ cask "spotify"
 cask "visual-studio-code"
 cask "google-chrome"
 cask "sourcetree"
+cask "docker"
 
 mas "Paprika Recipe Manager 3", id: 1303222628
 mas "CloudApp", id: 417602904
