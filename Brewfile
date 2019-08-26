@@ -1,5 +1,7 @@
 tap "also/also"
 
+cask "1password"
+
 brew "git-organized"
 
 brew "jq"
@@ -8,6 +10,8 @@ brew "nodenv"
 brew "hub"
 brew "tmux"
 
+cask "dropbox"
+cask "omnifocus"
 cask "spotify"
 cask "visual-studio-code"
 cask "google-chrome"
