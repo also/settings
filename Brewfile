@@ -4,6 +4,7 @@ cask "1password"
 
 brew "git-organized"
 
+brew "mkcert"
 brew "jq"
 brew "ack"
 brew "nodenv"
